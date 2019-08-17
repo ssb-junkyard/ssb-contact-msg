@@ -1,0 +1,30 @@
+{
+  "name": "ssb-contact-msg",
+  "version": "1.0.0",
+  "description": "a scuttlebutt helper for contact related messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/ssb-contact-msg.git"
+  },
+  "author": "Anders Rune Jensen",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/ssbc/ssb-contact-msg/issues"
+  },
+  "homepage": "https://github.com/ssbc/ssb-contact-msg#readme",
+  "dependencies": {
+    "pull-stream": "^3.6.14",
+    "ssb-contact-schema": "^1.0.0",
+    "ssb-ref": "^2.13.9"
+  },
+  "devDependencies": {
+    "scuttle-testbot": "^1.1.6",
+    "ssb-backlinks": "^0.7.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}
